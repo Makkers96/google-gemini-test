@@ -24,4 +24,9 @@ def run_llm(prompt):
     )
 
     result = completion.result
+    print(f"LLM Response: {result}")
     return result
+
+
+
+
